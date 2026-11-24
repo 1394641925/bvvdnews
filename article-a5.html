@@ -8,24 +8,22 @@
 </head>
 <body>
 
+<div class="topbar"><div class="wrap"><span>全球视野 · 战地一线 · 独家内幕</span><span>新闻热线 400-920-1788</span></div></div>
 <div class="masthead">
   <div class="wrap">
-    <div class="top-strip"><span>全球视野 · 战地一线 · 独家内幕</span><span>新闻热线 400-920-1788</span></div>
     <div class="title-row">
       <div class="brand">每日战报</div>
       <div class="brand-en">THE DAILY DISPATCH</div>
       <div class="motto">记录这个动荡时代的每一个瞬间</div>
     </div>
     <div class="info-row">
-      <span>2026年3月5日 星期四</span>
-      <span>第 8,126 期</span>
-      <span>莫斯科 多云 -4℃</span>
+      <span id="liveDate"></span><span class="dot">第 8,126 期</span><span class="dot">莫斯科 多云 -4℃</span>
     </div>
   </div>
 </div>
 <nav class="navbar"><div class="wrap">
-  <div class="navlinks"><a href="index.html">首页</a><a href="category.html?cat=要闻">要闻</a><a href="category.html?cat=国际">国际</a><a href="category.html?cat=军事">军事</a><a href="category.html?cat=深度" class="cur">深度</a><a href="category.html?cat=快讯">快讯</a></div>
-  <button class="burger" id="burger">☰</button>
+  <div class="navlinks" id="navlinks"><a href="index.html">首页</a><a href="category.html?cat=要闻">要闻</a><a href="category.html?cat=国际">国际</a><a href="category.html?cat=军事">军事</a><a href="category.html?cat=深度" class="cur">深度</a><a href="category.html?cat=快讯">快讯</a></div>
+  <button class="burger" id="burger" aria-label="打开菜单">☰</button>
 </div></nav>
 <div class="bulletin"><div class="label">快 讯</div><div class="track"><span>【快讯】巴兰尼科夫上校疑似再度"阵亡"，网友：今年第 3 次了</span><span>【独家】知情人士：1 美元交易细节曝光，涉及某南美领导人坐标</span><span>【战地】一段战斗机撞舰视频引爆网络，经核实为游戏录屏</span><span>【跟踪】本刊将持续关注事件后续进展，敬请留意最新报道</span><span>【快讯】巴兰尼科夫上校疑似再度"阵亡"，网友：今年第 3 次了</span><span>【独家】知情人士：1 美元交易细节曝光，涉及某南美领导人坐标</span><span>【战地】一段战斗机撞舰视频引爆网络，经核实为游戏录屏</span><span>【跟踪】本刊将持续关注事件后续进展，敬请留意最新报道</span></div></div>
 
@@ -35,7 +33,7 @@
     <span class="tag">深度 · 调查</span>
     <h1>为何每逢大战，巴兰尼科夫都会"壮烈牺牲"？</h1>
     <div class="sub">一个游戏总监，如何成为全球军事新闻的"常驻主角"</div>
-    <div class="meta"><span>深度报道组 林一</span><span>2026-03-03 10:05</span><span>阅读 97万</span></div>
+    <div class="meta"><span>深度报道组 林一</span><span><span class="dyn-date" data-age="4" data-time="10:05"></span></span><span>阅读 97万</span></div>
   </div>
   <figure class="article-fig"><img src="assets/images/s9.jpg" alt="为何每逢大战，巴兰尼科夫都会"壮烈牺牲"？"><figcaption>一个游戏总监，如何成为全球军事新闻的"常驻主角"</figcaption></figure>
   <article class="article-body">
@@ -43,7 +41,7 @@
     <p>巴兰尼科夫，网名 BVVD，是一款知名战争网游的开发总监。在玩家群体中，他的名字常与"游戏平衡性调整"联系在一起，被戏称为"科大夫"。而真正让他"出圈"的，是网友围绕他创作的一系列虚构"战报"。</p><p>这些创作往往以严肃新闻的口吻，讲述其在各种国际事件中的"传奇经历"，从间谍活动到战场牺牲，情节荒诞却格式严谨，形成强烈的反差幽默。有网友将其作品合集称为"bvvd 宇宙"。</p><p>有意思的是，部分段子在脱离玩梗语境后，被当作真实信息传播，甚至登上境外媒体版面，引发虚假信息核查机构的关注。多家媒体曾专门发文辟谣。</p><p>有传播学者指出，这类现象反映了短视频时代"信息碎片化"带来的辨识难题：当玩笑足够逼真，就需要读者具备更高的媒介素养。</p><p>而对于当事人巴兰尼科夫来说，这场旷日持久的网络狂欢，或许只是他游戏开发生涯中一段意想不到的插曲。</p>
   </article>
   <div class="article-nav"><a href="article-a4.html">← F-14A 被 AIM-120D…</a><a href="article-a6.html">巴兰尼科夫否认死亡传闻：我只是去… →</a></div>
-  <div class="center" style="margin-top:26px"><a href="index.html" class="back-link">← 返回首页</a></div>
+  <div class="center"><a href="index.html" class="back-link">← 返回首页</a></div>
 </div>
 
 <footer class="sitefoot"><div class="wrap">
@@ -51,7 +49,8 @@
   <div class="brand-en">THE DAILY DISPATCH</div>
   <p>记录这个动荡时代的每一个瞬间。全球视野，战地一线，带你看懂这个动荡时代。</p>
   <div class="links"><a href="index.html">首页</a><a href="category.html?cat=要闻">要闻</a><a href="category.html?cat=国际">国际</a><a href="category.html?cat=军事">军事</a><a href="category.html?cat=深度">深度</a><a href="category.html?cat=快讯">快讯</a></div>
-  <div class="bottom">第 8,126 期 · 2026年3月5日 星期四 &nbsp;|&nbsp; 全球视野 · 战地一线 · 独家内幕</div>
+  <div class="bottom">第 8,126 期 · <span id="footDate"></span> &nbsp;|&nbsp; 全球视野 · 战地一线 · 独家内幕</div>
 </div></footer>
-<div id="toast" class="toast" style="position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(100px);background:#1d2b45;color:#fff;padding:12px 22px;border-radius:30px;z-index:500;font-size:14px;opacity:0;transition:.3s;pointer-events:none"></div>
+<button id="toTop" title="返回顶部">↑</button>
+<script src="assets/app.js"></script>
 </body></html>
